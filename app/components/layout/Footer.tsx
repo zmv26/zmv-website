@@ -49,33 +49,34 @@ export default function Footer() {
       <div className="relative mx-auto w-full max-w-[1800px] px-6 sm:px-10 lg:px-14 xl:px-20">
         <div className="grid gap-10 py-12 sm:py-14 lg:grid-cols-[1.35fr_0.85fr_1.05fr_1.15fr] lg:gap-0 lg:py-16 xl:py-20">
           {/* Company branding */}
-          <div className="lg:pr-10 xl:pr-14">
-            <Link
-              href="/"
-              aria-label="ZMV Group Corp. home"
-              className="inline-flex"
-            >
-              <Image
-                src="/images/zmv-logo.png"
-                alt="ZMV Group Corp."
-                width={200}
-                height={100}
-                className="h-auto w-[145px] object-contain sm:w-[165px]"
-              />
-            </Link>
+           <div className="lg:pr-10 xl:pr-14">
+  <Link
+    href="/"
+    aria-label="ZMV Group Corp. home"
+    className="inline-flex rounded-sm bg-white p-2"
+  >
+    <Image
+      src="/images/zmv-group-logo-full.webp"
+      alt="ZMV Group Corp. - Community, Wellness, Opportunity"
+      width={300}
+      height={128}
+      priority
+      className="h-auto w-[200px] object-contain sm:w-[220px]"
+    />
+  </Link>
 
-            <p className="mt-6 max-w-sm text-sm leading-7 text-slate-300 sm:text-base">
-              A diversified group of businesses creating lasting value
-              through people, innovation, and sustainable growth.
-            </p>
+  <p className="mt-6 max-w-sm text-sm leading-7 text-slate-300 sm:text-base">
+    A diversified group of businesses creating lasting value
+    through people, innovation, and sustainable growth.
+  </p>
 
-            <div className="mt-7 h-[2px] w-12 bg-[#e7b44d]" />
+  <div className="mt-7 h-[2px] w-12 bg-[#e7b44d]" />
 
-            <p className="mt-7 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#e7b44d] sm:text-xs">
-              People <span className="mx-1.5">·</span> Businesses
-              <span className="mx-1.5">·</span> Communities
-            </p>
-          </div>
+  <p className="mt-7 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#e7b44d] sm:text-xs">
+    People <span className="mx-1.5">·</span> Businesses
+    <span className="mx-1.5">·</span> Communities
+  </p>
+</div>
 
           {/* Navigation */}
           <div className="border-white/10 lg:border-l lg:px-8 xl:px-10">
@@ -130,7 +131,7 @@ export default function Footer() {
 
             <div className="mt-5 space-y-5">
               <a
-                href="mailto:info@zmvtrading.com"
+                href="mailto:info@zmvgroup.com"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-[#c99532] text-[#efbd5c] transition-colors group-hover:bg-[#c99532]/10">
@@ -237,7 +238,7 @@ export default function Footer() {
             </Link>
 
             <a
-              href="#site-footer"
+              href="#top"
               aria-label="Back to top"
               className="ml-1 inline-flex items-center text-[#efbd5c] transition-transform hover:-translate-y-1"
             >

@@ -6,8 +6,8 @@ const contacts = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@zmvtrading.com",
-    href: "mailto:info@zmvtrading.com",
+    value: "info@zmvgroup.com",
+    href: "mailto:info@zmvgroup.com",
   },
   {
     icon: Phone,
@@ -41,7 +41,7 @@ export default function Contact() {
           </h2>
 
           <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">
-            We'd love to discuss your sourcing, import, export, and
+            We&apos;d love to discuss your sourcing, import, export, and
             distribution requirements. Get in touch with our team.
           </p>
         </div>

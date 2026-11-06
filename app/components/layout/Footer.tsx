@@ -142,7 +142,7 @@ export default function Footer() {
                     Email
                   </span>
                   <span className="mt-1 block break-words text-sm text-slate-300 sm:text-base">
-                    info@zmvtrading.com
+                    info@zmvgroup.com
                   </span>
                 </span>
               </a>
@@ -172,7 +172,7 @@ export default function Footer() {
                     Office
                   </span>
                   <span className="mt-1 block text-sm leading-6 text-slate-300 sm:text-base">
-                    Metro Manila, Philippines
+                    1268 San Andres, Malate, Manila, Philippines
                   </span>
                 </span>
               </div>

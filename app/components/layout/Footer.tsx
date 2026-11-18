@@ -8,6 +8,13 @@ import {
   ArrowUp,
 } from "lucide-react";
 
+import {
+  FaLinkedinIn,
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa6";
+
 const navigationLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/#about" },

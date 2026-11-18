@@ -560,13 +560,14 @@ export default function StudioMorphoPage() {
       </div>
 
       {/* RIGHT: Nectar Featured Image */}
-      <div className="relative mx-auto aspect-[1536/1024] w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden">
         <Image
           src="/images/studiomorpho/solmates-cafe-mixed-berries.png"
-          alt="Solmates Café Mixed Berries smoothie with vanilla and yogurt"
-          fill
-          sizes="(max-width: 768px) 100vw, 55vw"
-          className="object-contain"
+          alt="Solmates Café Mixed Berries smoothie"
+          width={1200}
+          height={800}
+          className="block h-auto w-full object-contain"
+          sizes="(max-width: 768px) 100vw, 50vw"
         />
       </div>
 
